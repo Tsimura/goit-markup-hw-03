@@ -1,0 +1,234 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-text-color: #212121;
+}
+/*класс для сброса настроек по умолчанию*/
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background: var(--primary-white-color);
+}
+/*==================== HEADER ====================*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.logo-blue {
+  color: var(--accent-color);
+}
+
+.menu-link.current {
+  color: var(--accent-color);
+}
+.menu-link,
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.menu-link:hover,
+.menu-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-mail,
+.header-tel {
+  color: #757575;
+}
+/*==================== END HEADER ====================*/
+
+/*==================== HERO ====================*/
+.hero {
+  text-align: center;
+  background: #2f303a;
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.button-in-hero {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: var(--primary-white-color);
+  cursor: pointer;
+  background: var(--accent-color);
+}
+
+.button-in-hero:hover,
+.button-in-hero:focus {
+  background: #188ce8;
+}
+
+/*=================== END HERO ===================*/
+
+/*==================== FEATURES ====================*/
+
+.features-links-list-item-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-links-list-item-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*==================== END FEATURES ====================*/
+
+/*==================== OUR BUSINESS ====================*/
+.our-business-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*=============== END OUR BUSINESS ===============*/
+
+/*==================== TEEM ====================*/
+.teem {
+  background: #f5f4fa;
+}
+
+.teem-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.teem-links-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.teem-links-item-description {
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*================== END TEEM ==================*/
+
+/*==================== FOOTER ====================*/
+.footer {
+  background: #2f303a;
+}
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+.footer-address-point {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address-point:hover,
+.footer-address-point:focus,
+.footer-mail:hover,
+.footter-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: #757575;
+}
+/*==================== END FOOTER ====================*/
+
+/*==================== PORTFOLIO PAGE ====================*/
+.filter-list-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
+  color: var(--primary-text-color);
+}
+
+.current-button {
+  background: #2196f3;
+}
+
+.filter-list-button:hover,
+.filter-list-button:focus {
+  background: #2196f3;
+}
+.filter-title-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--primary-text-color);
+}
+
+.filter-description {
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*==================== END PORTFOLIO PAGE ====================*/
