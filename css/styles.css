@@ -24,6 +24,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .list {
@@ -38,9 +39,13 @@ body {
   background: var(--primary-white-color);
 }
 /*==================== HEADER ====================*/
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
   border: 1px solid #ececec;
 }
 .container {
@@ -87,6 +92,9 @@ body {
   color: var(--primary-text-color);
 
   margin-right: 93px;
+
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-blue {
   color: var(--accent-color);
@@ -117,6 +125,10 @@ body {
 .header-tel {
   color: #757575;
 }
+.stretch-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 /*==================== END HEADER ====================*/
 
 /*==================== HERO ====================*/
@@ -145,7 +157,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
 
-  width: 200px;
+  /* width: 200px; */
   height: 50px;
   padding: 10px 32px;
 
@@ -166,15 +178,13 @@ body {
 /*=================== END HERO ===================*/
 
 /*==================== FEATURES ====================*/
-.features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .features-links-list {
   display: flex;
 }
 .features-links-list-item {
   max-width: 270px;
+  padding-bottom: 94px;
 }
 
 .features-links-list-item:not(:last-child) {
@@ -210,7 +220,7 @@ body {
 }
 .our-business-link-list {
   display: flex;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .our-business-link-list-item:not(:last-child) {
@@ -223,17 +233,13 @@ body {
   background: #f5f4fa;
 }
 
-.our-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .teem-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  /* padding-top: 94px; */
+
   margin-bottom: 50px;
 }
 .teem-link-list {
@@ -324,10 +330,7 @@ body {
 /*==================== END FOOTER ====================*/
 
 /*==================== PORTFOLIO PAGE ====================*/
-.filter {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .filter-list-link {
   display: flex;
   justify-content: center;
@@ -391,10 +394,10 @@ body {
   margin-top: -30px;
 }
 .portfolio-cards-item {
-  max-width: 369px;
+  max-width: 370px;
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc(100% - 3 * 30px) / 3;
+  flex-basis: calc(100% - 90px) / 3;
 
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -406,7 +409,7 @@ body {
 .filter-title-name {
   margin-bottom: 4px;
 }
-.portfolio-cards-tumb {
+.portfolio-cards-description {
   margin: 20px 24px;
 }
 /*==================== END PORTFOLIO PAGE ====================*/
