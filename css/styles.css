@@ -305,6 +305,7 @@ body {
   color: var(--primary-white-color);
 }
 .footer-address-point {
+  display: block;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -333,6 +334,7 @@ body {
   color: #757575;
 }
 .footer-mail {
+  display: block;
   margin-bottom: 9px;
 }
 /*==================== END FOOTER ====================*/
